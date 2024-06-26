@@ -11,14 +11,6 @@ This project implements a pairs trading strategy using ConocoPhillips (COP) and 
 - Profit and Loss (PnL) calculation
 - Performance comparison against S&P 500 benchmark
 
-## Technologies Used
-- Python
-- pandas for data manipulation
-- numpy for numerical computations
-- matplotlib for data visualization
-- statsmodels for statistical modeling
-- yfinance for retrieving stock data
-
 ## Methodology
 1. **Data Collection**: Historical price data for COP and KO is fetched using yfinance.
 2. **Z-Score Calculation**: A rolling z-score is computed to measure the divergence between the two stocks.
